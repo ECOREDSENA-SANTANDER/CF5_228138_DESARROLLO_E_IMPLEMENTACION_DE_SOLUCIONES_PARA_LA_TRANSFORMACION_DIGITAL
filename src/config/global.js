@@ -1,17 +1,18 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Validaciones del informe de requisitos',
+    descripcionCurso:
+      'Los requisitos se constituyen como la base fundamental para el desarrollo de proyectos de software y transformación digital, debido al impacto en el diseño y demás fases del ciclo de vida del producto, por lo que validar la documentación de requisitos apropiadamente ayuda a reducir los cambios y correcciones en los proyectos, optimizando los costos en el desarrollo de software o soluciones tecnológicas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -31,28 +32,63 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación y validación del informe de requisitos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Variables claves y restricciones',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Criterios de aceptación y validación de resultados',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Opinión de expertos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Gestión de cambios',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Herramientas para la gestión y trazabilidad',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Derechos de autor',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Protección de la propiedad intelectual',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Políticas de confidencialidad',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Criterios éticos del tratamiento de los datos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Políticas legales',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -60,7 +96,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -86,7 +121,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228138_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -100,34 +135,141 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia: 'Cloud Education. (2021). Redes. IBM. ',
+      link:
+        'https://www.ibm.com/co-es/cloud/learn/networking-a-complete-guide#toc-trminos-y--ZhqcZz4r',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Corporation and/or its affiliates. (2010). Modelo de referencia OSI. ORACLE. ',
+      link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
+    },
+    {
+      referencia:
+        'Ministerio de Hacienda y Administraciones Públicas de España. (2012). Metodología de análisis y gestión de riesgos de los sistemas de información.',
+      link:
+        'https://administracionelectronica.gob.es/pae_Home/dam/jcr:fb373672-f804-4d05-8567-2d44b3020387/2012_Magerit_v3_libro1_metodo_es_NIPO_630-12-171-8.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia. (2017). Guía de transición IPv4 a IPv6 para Colombia. ',
+      link:
+        'https://www.mintic.gov.co/portal/715/articles-162301_guia_transicion_ipv4_ipv6.pdf',
+    },
+    {
+      referencia:
+        'Organización de Estados Americanos. (2019). Ciberseguridad marco NIST. Un abordaje integral de la ciberseguridad. ',
+      link:
+        'https://www.oas.org/es/sms/cicte/docs/OEA-AWS-Marco-NIST-de-Ciberseguridad-ESP.pdf',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización. (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001). ',
+      link: 'https://www.iso.org/standard/54534.html',
+    },
+    {
+      referencia: 'Projete. (s.f.). Amenazas y vulnerabilidades. ',
+      link:
+        'https://protejete.wordpress.com/gdr_principal/amenazas_vulnerabilidades/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Activos de información',
+      significado:
+        'están relacionados con la seguridad de la información, hacen referencia a cualquier información o dispositivo que tenga que ver con el tratamiento de esta y que sea de valor para la organización.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Auditoría',
+      significado:
+        'acción que consiste en emitir criterios y opiniones profesionales acerca de cualquier objeto de análisis, del cual se espera que represente de manera adecuada la realidad que pretende reflejar; también sobre si cumple o no con las condiciones y funcionalidades que se han acordado en el nivel de servicio.',
+    },
+    {
+      termino: 'Auditorías internas de SGSI',
+      significado:
+        'el principal objetivo de la auditoría de SGSI es investigar, de manera objetiva, si existe algo que esté mal realizado. El auditor interno tiene que ser una persona capacitada, con su conocimiento debe poder descubrir si algo se hace mal dentro de la organización. Realizando un buen trabajo, correctivo y/o preventivo, entonces la auditoría interna de SGSI mejorará su seguridad.',
+    },
+    {
+      termino: 'Ciberseguridad',
+      significado:
+        'conjunto de metodologías, medidas y controles destinados a gestionar la seguridad de la información de una organización y/o de la información en general.',
+    },
+    {
+      termino: '<em>Ethical hacking</em>',
+      significado:
+        'proceso que se da al interior de las organizaciones a través del cual se exploran las vulnerabilidades existentes en los sistemas, haciendo pruebas de intrusión, que sirven para verificar y evaluar la seguridad física y lógica de los sistemas de información, redes de computadoras, aplicaciones web, bases de datos, servidores, etc.',
+    },
+    {
+      termino: '<em>Malware</em>',
+      significado:
+        '<em>software</em> diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'posibilidad de sufrir una afectación por causa de factores externos o internos. El riesgo es un peligro latente que puede o no materializarse. En el orden informático y de ciberseguridad, los riesgos no son distintos, contemplan las vulnerabilidades y las amenazas y pueden ser controlados, tratados, mitigados, prevenidos y, en algunos casos, eliminados.',
+    },
+    {
+      termino: 'Seguridad informática',
+      significado:
+        'rama del saber que tiene ocupación en el diseño de normas y criterios, procedimientos y métodos, técnicas y estrategias, dirigidos a lograr seguridad y confiabilidad en un sistema de información. ',
+    },
+    {
+      termino: 'Tratamiento de riesgos',
+      significado:
+        'medidas y controles que se implementan para mitigar el impacto o la frecuencia de ocurrencia de un riego.',
+    },
+    {
+      termino: 'Virus informático',
+      significado:
+        '<em>software</em> que se instala en un dispositivo sin el consentimiento del usuario, con el fin de alterar el funcionamiento. ',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema:
+        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
+      referencia:
+        'ISO. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27005).',
+      tipo: 'Norma / Documento',
+      link: 'https://www.iso.org/standard/75281.html',
+    },
+    {
+      tema:
+        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
+      referencia:
+        'ISO. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27002). ',
+      tipo: 'Norma / Documento',
+      link: 'https://www.iso.org/standard/54533.html',
+    },
+    {
+      tema: '8. Amenazas y vulnerabilidades',
+      referencia:
+        'Gómez, V., Á. (2015). Auditoría de seguridad informática. RA-MA Editorial. ',
+      tipo: 'Libro',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6422&pg=1',
+    },
+    {
+      tema: '9. Riesgos',
+      referencia:
+        'Gómez V., Á. (2015). Seguridad en equipos informáticos. RA-MA Editorial.',
+      tipo: 'Libro',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8105&pg=1',
+    },
+    {
+      tema: '9.2. Características, impacto y análisis de riesgos',
+      referencia: 'ISO (2018). Gestión del riesgo. Directrices (ISO 31000). ',
+      tipo: 'Norma / Documento',
+      link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
+    },
+    {
+      tema: '10. <em>Ethical Hacking</em>',
+      referencia:
+        'Astudillo, B. K. (2019). Hacking ético: ¡Cómo convertirse en hacker ético en 21 días o menos! Ediciones de la U.',
+      tipo: 'Libro',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10047&pg=1',
     },
   ],
   creditos: [
@@ -135,15 +277,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Patricia Aristizabal',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -151,10 +293,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +325,46 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
+        // {
+        //   nombre: 'Emilsen Alfonso Bautista ',
+        //   cargo: 'Actividad didáctica',
+        //   centro:
+        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        // },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Mary Jeans Palacio Camacho ',
+          cargo: 'Animador y Productor Multimedia  ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y Productor Multimedia ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: ' Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
       ],
     },
@@ -191,29 +372,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
       ],
     },
   ],
