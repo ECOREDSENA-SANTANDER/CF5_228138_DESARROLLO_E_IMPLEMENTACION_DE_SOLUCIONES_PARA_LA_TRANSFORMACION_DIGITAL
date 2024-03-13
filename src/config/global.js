@@ -137,32 +137,31 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Cloud Education. (2021). Redes. IBM. ',
-      link:
-        'https://www.ibm.com/co-es/cloud/learn/networking-a-complete-guide#toc-trminos-y--ZhqcZz4r',
+      referencia:
+        'Caurin, J. (2018). Políticas de seguridad ¿Qué son las políticas de seguridad? Emprende Pyme. ',
+      link: 'https://www.emprendepyme.net/politicas-de-seguridad.html',
     },
     {
       referencia:
-        'Corporation and/or its affiliates. (2010). Modelo de referencia OSI. ORACLE. ',
-      link: 'https://docs.oracle.com/cd/E19957-01/820-2981/ipov-8/index.html',
+        'Decisión Andina 351 de 1993. [Comisión del Acuerdo de Cartagena]. Régimen común sobre derecho de autor y derechos conexos. Diciembre 17 de 1993. ',
+      link: 'https://www.wipo.int/edocs/lexdocs/laws/es/can/can010es.pdf ',
     },
     {
       referencia:
-        'Ministerio de Hacienda y Administraciones Públicas de España. (2012). Metodología de análisis y gestión de riesgos de los sistemas de información.',
+        'Ley 23 de 1982. [Congreso de Colombia]. Sobre derechos de autor. Enero 28 de 1982. https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=3431&dt=S',
       link:
-        'https://administracionelectronica.gob.es/pae_Home/dam/jcr:fb373672-f804-4d05-8567-2d44b3020387/2012_Magerit_v3_libro1_metodo_es_NIPO_630-12-171-8.pdf',
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=3431&dt=S',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia. (2017). Guía de transición IPv4 a IPv6 para Colombia. ',
+        'Ley 241 de 2011. [Congreso de Colombia]. Por la cual se regula la responsabilidad por las infracciones al derecho de autor y los derechos conexos en Internet. Abril de 2011.',
       link:
-        'https://www.mintic.gov.co/portal/715/articles-162301_guia_transicion_ipv4_ipv6.pdf',
+        'http://www.informatica-juridica.com/proyecto-de-ley/proyecto-ley-241-derecho-autor-los-derechos-conexos-internet/',
     },
     {
       referencia:
-        'Organización de Estados Americanos. (2019). Ciberseguridad marco NIST. Un abordaje integral de la ciberseguridad. ',
-      link:
-        'https://www.oas.org/es/sms/cicte/docs/OEA-AWS-Marco-NIST-de-Ciberseguridad-ESP.pdf',
+        'Organización Mundial de la Propiedad Intelectual OMP. (2021). ¿Qué es la propiedad intelectual? OMP',
+      link: 'https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf',
     },
     {
       referencia:
@@ -170,106 +169,117 @@ export default {
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
-      referencia: 'Projete. (s.f.). Amenazas y vulnerabilidades. ',
-      link:
-        'https://protejete.wordpress.com/gdr_principal/amenazas_vulnerabilidades/',
+      referencia:
+        'Netec. (2021). Curso Fundamentos de ITIL® V3 | EOL. Proceso de gestión de niveles de servicio. México. Obtenido de',
+      link: 'https://www.netecdigital.com/courses/195795/lectures/3432553',
+    },
+    {
+      referencia:
+        'Presman, R., & Maxim, B. (2021). Ingeniería de software - un enfoque práctico. Guadalajara, México:McGraw-Hill Interamericana. Repositorio Sena.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=16414',
     },
   ],
   glosario: [
     {
-      termino: 'Activos de información',
+      termino: 'AWS',
       significado:
-        'están relacionados con la seguridad de la información, hacen referencia a cualquier información o dispositivo que tenga que ver con el tratamiento de esta y que sea de valor para la organización.',
+        'son las  siglas de Amazon Web Service, que es una de plataformas tecnológicas donde muchas empresas tienen para guardar sus datos y su infraestructura tecnológica.',
     },
     {
-      termino: 'Auditoría',
+      termino: 'Confidencialidad',
       significado:
-        'acción que consiste en emitir criterios y opiniones profesionales acerca de cualquier objeto de análisis, del cual se espera que represente de manera adecuada la realidad que pretende reflejar; también sobre si cumple o no con las condiciones y funcionalidades que se han acordado en el nivel de servicio.',
+        'propiedad que determina que la información solo esté disponible y sea revelada a individuos, entidades o procesos autorizados.',
     },
     {
-      termino: 'Auditorías internas de SGSI',
+      termino: 'Disponibilidad de servicios',
       significado:
-        'el principal objetivo de la auditoría de SGSI es investigar, de manera objetiva, si existe algo que esté mal realizado. El auditor interno tiene que ser una persona capacitada, con su conocimiento debe poder descubrir si algo se hace mal dentro de la organización. Realizando un buen trabajo, correctivo y/o preventivo, entonces la auditoría interna de SGSI mejorará su seguridad.',
+        'se refiere al porcentaje garantizado. Entre menos disponibilidad menos garantía y el servicio estará interrumpido o con fallos. Se usa para medir cumplimiento de requerimientos y hacer cumplir contratos o en su defecto sanciones pactadas.',
     },
     {
-      termino: 'Ciberseguridad',
+      termino: 'Google Workspace',
       significado:
-        'conjunto de metodologías, medidas y controles destinados a gestionar la seguridad de la información de una organización y/o de la información en general.',
+        'es un conjunto de herramientas para la productividad de las empresas creado por Google.',
     },
     {
-      termino: '<em>Ethical hacking</em>',
+      termino: 'Insigth',
       significado:
-        'proceso que se da al interior de las organizaciones a través del cual se exploran las vulnerabilidades existentes en los sistemas, haciendo pruebas de intrusión, que sirven para verificar y evaluar la seguridad física y lógica de los sistemas de información, redes de computadoras, aplicaciones web, bases de datos, servidores, etc.',
+        'es un término de la Psicología que indica una verdad general, en términos de informática y marketing se refiere a las verdades (a veces relativa según tiempo y condiciones), que generan los datos o los comportamientos de consumo.',
     },
     {
-      termino: '<em>Malware</em>',
+      termino: 'Metodología Scrum',
       significado:
-        '<em>software</em> diseñado para comprometer la seguridad de la información, como la utilidad y preservación del equipo.',
+        'hace parte del paradigma de metodologías ágiles, actualmente es la metodología más empleada para el desarrollo de proyectos tecnológicos, se caracteriza por ser flexible, ágil y desarrollar módulos o mejoras sobre la marcha de la implementación.',
     },
     {
-      termino: 'Riesgo',
+      termino: 'Microsoft Office 365',
       significado:
-        'posibilidad de sufrir una afectación por causa de factores externos o internos. El riesgo es un peligro latente que puede o no materializarse. En el orden informático y de ciberseguridad, los riesgos no son distintos, contemplan las vulnerabilidades y las amenazas y pueden ser controlados, tratados, mitigados, prevenidos y, en algunos casos, eliminados.',
+        'son un conjunto de herramientas ofimáticas de productividad para las empresas, contratadas con la empresa Microsoft.',
     },
     {
-      termino: 'Seguridad informática',
+      termino: 'Requisitos Funcionales (RF)',
       significado:
-        'rama del saber que tiene ocupación en el diseño de normas y criterios, procedimientos y métodos, técnicas y estrategias, dirigidos a lograr seguridad y confiabilidad en un sistema de información. ',
+        'definen las funcionalidades como reglas de negocio, condiciones, cálculos, etc.',
     },
     {
-      termino: 'Tratamiento de riesgos',
+      termino: 'Requisitos No Funcionales (RNF)',
       significado:
-        'medidas y controles que se implementan para mitigar el impacto o la frecuencia de ocurrencia de un riego.',
+        'son los requerimientos transversales del sistema, no son propiamente de función del sistema, pero sí necesarios, tales como el ambiente gráfico, proveedores de servicios, fiabilidad, velocidad, etc.',
     },
     {
-      termino: 'Virus informático',
+      termino: 'Supeditados',
       significado:
-        '<em>software</em> que se instala en un dispositivo sin el consentimiento del usuario, con el fin de alterar el funcionamiento. ',
+        'condicionado a algo, indica que dependiendo de una situación está sometido a actuar de una manera específica.',
+    },
+    {
+      termino: 'Testeos',
+      significado:
+        'son las pruebas de software, donde el área de la ingeniería de software emplea metodologías de pruebas para detectar errores de programación o errores funcionales a partir de los requisitos.',
     },
   ],
   complementario: [
     {
-      tema:
-        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
+      tema: '1. Evaluación y validación del informe de requisitos',
       referencia:
-        'ISO. (2018). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27005).',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/standard/75281.html',
-    },
-    {
-      tema:
-        '2. Normatividad y estándares: ciberseguridad<br><br>3. Normatividad y estándares: seguridad de la información',
-      referencia:
-        'ISO. (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27002). ',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/standard/54533.html',
-    },
-    {
-      tema: '8. Amenazas y vulnerabilidades',
-      referencia:
-        'Gómez, V., Á. (2015). Auditoría de seguridad informática. RA-MA Editorial. ',
+        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de software.. Corporación Universitaria Remington. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/68913',
       tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6422&pg=1',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/68913?page=64',
     },
     {
-      tema: '9. Riesgos',
+      tema: '1.2 Criterios de aceptación y validación de resultados',
       referencia:
-        'Gómez V., Á. (2015). Seguridad en equipos informáticos. RA-MA Editorial.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8105&pg=1',
+        'De Querétaro, S. (2021). 06 - Ingeniería de requerimientos: aprende a validar. YouTube. https://youtu.be/6llMdLDkanM',
+      tipo: 'Video',
+      link: 'https://youtu.be/6llMdLDkanM',
     },
     {
-      tema: '9.2. Características, impacto y análisis de riesgos',
-      referencia: 'ISO (2018). Gestión del riesgo. Directrices (ISO 31000). ',
-      tipo: 'Norma / Documento',
-      link: 'https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es',
-    },
-    {
-      tema: '10. <em>Ethical Hacking</em>',
+      tema: '1.4 Gestión de cambios',
       referencia:
-        'Astudillo, B. K. (2019). Hacking ético: ¡Cómo convertirse en hacker ético en 21 días o menos! Ediciones de la U.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10047&pg=1',
+        'IBM. (2021). Acuerdos de nivel de servicio (SLA). Documentación IBM. https://www.ibm.com/docs/es/mfsp/7.6.1?topic=records-service-level-agreements-slas',
+      tipo: 'Documento',
+      link:
+        'https://www.ibm.com/docs/es/mfsp/7.6.1?topic=records-service-level-agreements-slas',
+    },
+    {
+      tema: '1.5 Herramientas para la gestión y trazabilidad',
+      referencia:
+        'Canal Geek QA. (2021). Como usar JIRA desde 0 en equipos SCRUM. YouTube. https://youtu.be/ViwOKhYx4kg',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ViwOKhYx4kg',
+    },
+    {
+      tema: '1.5 Herramientas para la gestión y trazabilidad',
+      referencia:
+        'Canal EducaTIC. (2021). Tutorial Trello actualizado 2022. YouTube. https://youtu.be/sZd7uUPigk8',
+      tipo: 'Video',
+      link: 'https://youtu.be/sZd7uUPigk8',
+    },
+    {
+      tema: '2.1 Protección de la propiedad intelectual',
+      referencia:
+        'Organización Mundial de la Propiedad Intelectual OMPI. (2021). ¿Qué es la propiedad intelectual? OMPI. https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf',
+      tipo: 'Folleto',
+      link: 'https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf',
     },
   ],
   creditos: [
@@ -277,15 +287,9 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
@@ -293,31 +297,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Diana Carolina Triana Guarnizo',
-          cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Juan Carlos Cárdenas Sánchez',
-          cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Gloria Esperanza Ortiz Russi',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador Instruccional',
+          nombre: 'Jaime Hernán Tejada',
+          cargo: 'Experto Temático',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Norte de Santander Centro de la Industria, la empresa y los servicios - CIES',
         },
         {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Asesor Metodológico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Distrito Capital',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Asesora metodológica y pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
         },
       ],
     },
@@ -325,46 +319,15 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Giovanna Andrea Escobar Ospina',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+            'Regional Norte de Santander Centro de la Industria, la empresa y los servicios - CIES',
         },
-        // {
-        //   nombre: 'Emilsen Alfonso Bautista ',
-        //   cargo: 'Actividad didáctica',
-        //   centro:
-        //     'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        // },
         {
-          nombre: 'Francisco José Lizcano Reyes',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres ',
-          cargo: 'Storyboard e Ilustración ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Mary Jeans Palacio Camacho ',
-          cargo: 'Animador y Productor Multimedia  ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Animador y Productor Multimedia ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: ' Locución ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+          centro: 'San Gil - Regional Santander ',
         },
       ],
     },
@@ -372,22 +335,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Álvarez',
-          cargo: 'Validador de Recursos Educativos Digitales ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles ',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },

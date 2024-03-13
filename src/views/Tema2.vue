@@ -20,7 +20,7 @@
             .col-lg-5.col-10
               h4 Art. 1º. 
               p.mb-lg-0.mb-3 Los autores de obras literarias, científicas y artísticas gozarán de protección para sus obras. 
-            .col-lg-5.col-10
+            .col-lg-5.col-11
               img.mb-0(alt="" src="@/assets/curso/tema2/01.png")
 
           .row.justify-content-center.p-4

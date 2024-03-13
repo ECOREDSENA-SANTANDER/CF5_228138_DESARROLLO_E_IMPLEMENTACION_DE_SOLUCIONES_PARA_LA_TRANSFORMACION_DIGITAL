@@ -95,18 +95,18 @@
       p En el siguiente esquema, se resumen los elementos claves en la documentación de requisitos:
       
       .row.justify-content-center(data-aos="fade-left")
-          .col-lg-8
-            .tabla-b.color-acento-contenido.mb-5
+        .col-lg-8
+            .tabla-b.color-acento-contenido.mb-2.justify-content-center
               .tabla-b__header
                 h4.mb-0 Concepción
               table.fondo-tabla
                 tr
                   td Motivación para el desarrollo de la solución
                   td Identificar necesidades
-          .col-xs-1-col-6
-            img.w-10(alt="" src="@/assets/curso/tema1/flechabajo.svg")
+              
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
           
-            .tabla-b.color-acento-contenido.mb-5
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Indagación
               table.fondo-tabla
@@ -114,8 +114,9 @@
                   td Escuchar clientes, usuarios
                   td Establece metas de negocio y las asocia con requisitos
                   td Asociar requisitos a metas y ponderar requisitos
-            
-            .tabla-b.color-acento-contenido.mb-5
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
+
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Elaboración
               table.fondo-tabla
@@ -123,8 +124,9 @@
                   td Análisis de requisitos
                   td Diagramar soluciones
                   td Describir solución claramente
-           
-            .tabla-b.color-acento-contenido.mb-5
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
+            
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Negociación
               table.fondo-tabla
@@ -133,24 +135,27 @@
                   td Establecer prioridad de requisitos
                   td Cierre de acuerdos gana / gana
                   td Claridad del alcance
-           
-            .tabla-b.color-acento-contenido.mb-5
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
+            
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Especificación
               table.fondo-tabla
                 tr
                   td Usar métodos de documentación según metodología (plantillas de requisitos)
                   td Especificaciones claras y técnicas para programar
-            
-            .tabla-b.color-acento-contenido.mb-5
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
+           
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Validación
               table.fondo-tabla
                 tr
                   td Establecer viabilidad, claridad
                   td Evaluar que esté bien registrado y documentado cada requisito
-           
-            .tabla-b.color-acento-contenido.mb-5
+              img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
+            
+            .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
                 h4.mb-0 Concepción
               table.fondo-tabla
@@ -172,16 +177,18 @@
         
       .row(data-aos="fade-left")
         .col-lg-8.col-22
-        h3 <br> Comprobación de validación de requisitos
+          h3 <br> Comprobación de validación de requisitos
         .col-lg-12.col-22
-        img(src="@/assets/curso/tema1/validacionerrores.svg")
-
+          img.d-block.d-md-none(src='@/assets/curso/tema1/validacionmobile.svg', alt='')
+        .col-lg-12.col-22
+          img.d-none.d-md-block(src='@/assets/curso/tema1/validacionerrores.svg', alt='') 
+      
       .row 
         br
 
       .row(data-aos="fade-rigth") 
         br
-        .col-lg-4.col-12
+        .col-lg-4.col-12.p-4
           img(src="@/assets/curso/tema1/1.2.1.png")
         .col-lg-8.col-22
           p Las preguntas anteriores son orientadoras al momento de realizar la validación de requisitos, pueden surgir otras según la naturaleza del proyecto o del requisito mismo, pero son una base que ayuda en el establecimiento procedimental para identificar de manera puntual cuándo es necesario ajustar el requisito especificado. Estas validaciones pueden tomar tiempo al hacer estas comprobaciones, pero vale la pena realizarlas, pues esto garantiza un mejor control, registro y seguimiento del desarrollo y entrega del proyecto.
@@ -204,7 +211,7 @@
               img(src="@/assets/curso/tema1/icono1.3.png")
      
       .row(data-aos="fade-left").p-4 
-        .col-lg-3.col-12
+        .col-lg-3.col-12.p-3
           img(src="@/assets/curso/tema1/1.3.png")
         .col-lg-9.col-22
           p Esta práctica expone los planes de la organización ante los ojos de experto con conocimientos técnicos y con un rol objetivo que busca apoyar en la toma de decisiones sin estar viciado por los juicios internos, que puede aportar teniendo en cuenta factores que, a lo mejor, se ignoraban y que podrían resultar críticos para los planes corporativos.
@@ -247,7 +254,7 @@
       .row.justify-content-center
         .col-sm-6.col-lg-5.mb-4.mb-lg-0
           .tarjeta-avatar.fondo-naranja.p-4
-            .col-lg-3
+            .col-lg-3.col-5
               img.w-75(src='@/assets/curso/tema1/p1.png' alt='')
             .tarjeta
                 h4 Generar los pliegos de condiciones o requerimientos
@@ -256,7 +263,7 @@
            
         .col-sm-6.col-lg-5.mb-4.mb-lg-0
           .tarjeta-avatar.fondo-naranja.p-4
-                .col-lg-3
+                .col-lg-3.col-5
                   img.w-75(src='@/assets/curso/tema1/p2.png' alt='')
                 .tarjeta.p-1
                   h4 Durante el desarrollo del proyecto
@@ -290,7 +297,7 @@
               img(src="@/assets/curso/tema1/icono3.png")
       br
       .row(data-aos="fade-rigth").p-4 
-        .col-lg-5.col-12
+        .col-lg-5.col-12.p-3
           img(src="@/assets/curso/tema1/sla.png")
         .col-lg-7.col-22
           p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los Acuerdos de Nivel de Servicio (SLA), y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, pues estos pactos de servicio pueden ser flexibles y se debe llevar seguimiento y un requisito nuevo.
@@ -312,12 +319,12 @@
             .col.lg-8
               br
               h5.p-4 Esta es una herramienta robusta que contiene plantillas predefinidas que se pueden usar para adaptar los proyectos propios; adicionalmente, se conecta con otras herramientas de productividad para potencializar la integración de herramientas usadas en los proyectos.
-            .col-lg-4.col-12.p-3
+            .col-lg-4.col-10.p-3
               img(src="@/assets/curso/tema1/1.5.png")
       
       br
       .row(data-aos="fade-rigth").p-4 
-        .col-lg-4.col-12
+        .col-lg-4.col-12.p-3
           img(src="@/assets/curso/tema1/final.png")
         .col-lg-8.col-22
           p Cuando se crea una cuenta, a cada usuario se le asigna una dirección o dominio, lo cual lo hace muy fácil de compartir e ingresar directamente a los proyectos asociados.
@@ -354,7 +361,7 @@
           h4 El principio de funcionalidad es muy simple. Básicamente, hay tres columnas que indican el periodo o fase de ejecución de las incidencias: están las pendientes de ejecutar, las que están en periodo de ejecución y las entregadas. Si bien, por defecto, son tres columnas, podrían agregarse más, por ejemplo, en caso de proyectos tecnológicos, se podría agregar una columna más que indique cuáles están en prueba y cuáles ya pasaron la prueba o lo que se necesite.
           p Adicionalmente, es una herramienta que se puede personalizar, configurando los diferentes tipos de incidencias, y está diseñada para trabajar con equipos de trabajo donde se asignan las incidencias y se gestionen los usuarios que tienen asignación.
           p Cada incidencia, según su naturaleza, solicita datos. Para una tarea normal, las tarjetas solicitan un nombre de tarea, se pueden añadir incidencias secundarias, vincular a través de enlace a otras tareas, una descripción, y los comentarios que cada participante de esta incidencia puede trabajar. Estos campos son configurables y personalizables, según las necesidades y lo que se desea registrar o controlar.
-        .col-lg-4.col-12
+        .col-lg-4.col-12.p-3
           img(src="@/assets/curso/tema1/1.6.png")
 
         .row 
@@ -368,18 +375,22 @@
             .col.lg-8
               br
               h5.p-4 Es una herramienta sencilla, funciona basada en tarjetas, con gran capacidad para la gestión de tareas y coordinación de equipos de trabajo. Por defecto, cuenta con las tres columnas “por hacer”, “en proceso” y “hecho” o finalizado, pero tiene la posibilidad de agregar más columnas según la dinámica y necesidades.
-            .col-lg-3.col-12.p-3
+            .col-lg-3.col-9.p-3
               img(src="@/assets/curso/tema1/trello.png")
               br
         p <br>Cuando se añade una tarjeta, esta presenta diversas opciones para registrar la actividad, con todas las opciones necesarias para el registro, control y avance del proyecto, así como las responsabilidades y ejecución de los miembros del equipo.
       
       .row.justify-content-center.align-items-center(data-aos="fade-left").p-2
-        .col-lg-4.col-12
+        .col-lg-4.col-12.p-3
           img(src="@/assets/curso/tema1/termino.png")
         .col-lg-8.col-22
           h4 Las tarjetas permiten agregar o quitar miembros de las tareas específicas, permite incluir listas de chequeo para ir controlando acciones o tareas más pequeñas, adicionar fechas para llevar control de tiempos, archivos adjuntos y otras opciones.
           p Además, el área de comentarios o registro de actividades se emplea para que los miembros del equipo registren novedades, entregas, códigos, o lo que se establezca registrar, para mantener un historial completo sobre el avance y estado de la tarea que represente la tarjeta.
           p Existen otras herramientas para gestionar proyectos y que estos lleguen a feliz término; en este caso, es muy importante que los criterios de entrega cumplan con todas las pruebas y aprobaciones del negocio, como, por ejemplo: Azure DevOps o Monday.com
+
+
+
+
 </template>
 
 <script>
