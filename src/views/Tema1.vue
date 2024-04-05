@@ -172,7 +172,7 @@
           p Según la metodología seleccionada, se emplean diversas técnicas de criterios de evaluación que engloban los parámetros establecidos del modelo de gestión del proyecto, en el cual deben estar inmersos los documentos de requisitos.
           p Es muy importante analizar cada requisito en detalle, pues equivocaciones en estos podrían suponer costos y atrasos futuros; se busca es que la experiencia de desarrollo e implantación del proyecto sea la mejor posible, fluida, bien planeada y sin novedades graves.
           p Es conveniente revisar cada requerimiento realizando preguntas puntuales para la comprobación de requisitos. En el siguiente esquema, se relaciona cada una de ellas:
-        .col-lg-4.col-12
+        .col-lg-4.col-10
           img(src="@/assets/curso/tema1/1.2.png")
         
       .row(data-aos="fade-left")
@@ -188,9 +188,9 @@
 
       .row(data-aos="fade-rigth") 
         br
-        .col-lg-4.col-12.p-4
+        .col-lg-5.col-10
           img(src="@/assets/curso/tema1/1.2.1.png")
-        .col-lg-8.col-22
+        .col-lg-7.col-12.py-2
           p Las preguntas anteriores son orientadoras al momento de realizar la validación de requisitos, pueden surgir otras según la naturaleza del proyecto o del requisito mismo, pero son una base que ayuda en el establecimiento procedimental para identificar de manera puntual cuándo es necesario ajustar el requisito especificado. Estas validaciones pueden tomar tiempo al hacer estas comprobaciones, pero vale la pena realizarlas, pues esto garantiza un mejor control, registro y seguimiento del desarrollo y entrega del proyecto.
           p Las preguntas anteriores podrían ser un insumo para la construcción de instrumentos que garanticen que todos los requisitos pasen por una validación adecuada, por lo que cada director de proyecto deberá crear su propia lista de chequeo con los ítems que considera son claros para aceptar o no un requisito; además, se pueden complementar otorgando a cada criterio un peso o una ponderación en el proyecto, pues hay requisitos que tienen una puntuación mayor que otros, ya sea por su importancia funcional, la complejidad de su desarrollo u otros factores.
 
@@ -207,11 +207,11 @@
             .col.lg-6
               br
               h5.p-4 Dentro del campo de la ingeniería de requisitos y el desarrollo de proyectos, es común la validación y revisión por parte de un experto o un grupo de expertos representados en una empresa, con recorrido y experiencia en el campo de desarrollo tecnológico. 
-            .col-lg-4.col-12
+            .col-lg-4.col-10
               img(src="@/assets/curso/tema1/icono1.3.png")
      
       .row(data-aos="fade-left").p-4 
-        .col-lg-3.col-12.p-3
+        .col-lg-3.col-10.p-3
           img(src="@/assets/curso/tema1/1.3.png")
         .col-lg-9.col-22
           p Esta práctica expone los planes de la organización ante los ojos de experto con conocimientos técnicos y con un rol objetivo que busca apoyar en la toma de decisiones sin estar viciado por los juicios internos, que puede aportar teniendo en cuenta factores que, a lo mejor, se ignoraban y que podrían resultar críticos para los planes corporativos.
@@ -236,15 +236,22 @@
                 p.text-center Generan nuevas ideas de negocio, ampliando posibilidades comerciales, mejorando la experiencia de los clientes, identificando otras posibilidades, innovando en los procesos, haciendo las organizaciones más inteligentes.
       br
       p También existen los <b>consultores tecnológicos,</b> que se refieren a los servicios de consejería bajo el contexto de acciones de soluciones tecnológicas e informáticas. Las empresas usan estos servicios motivados por la necesidad de asesorías profesionales, en especial, para escuchar recomendaciones sobre la manera de actuar frente a necesidades tecnológicas y transformación digital, ayudando a las organizaciones a tomar mejores decisiones bajo conceptos profesionales, que se dedican a acompañar grandes corporaciones exitosas en temas como estrategia empresarial, economía, áreas financieras, tributarias, legal, tecnología, marketing, etc.
-
+      
+      .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
+        .row
+          .col-lg-1.col-auto.py-4
+            figure
+              img(src="@/assets/curso/tema1/socios.svg", alt="alt").img75.m-auto
+          .col-lg-11
+            p.p-4 Otro término empleado para las empresas externas que apoyan y ofrecen soluciones tecnológicas a las organizaciones que requieren tener una mayor seguridad, asesoría y acompañamiento en la implementación de proyectos digitales especializados son los partners tecnológicos, estos pueden ofrecer servicios diversificados, desde educación y gestión del cambio cultural, hasta el desarrollo de software e implementación de soluciones tecnológicas, la mayoría tiene el rol de acercar las organizaciones de todos los tamaños con las grandes corporaciones y ecosistemas digitales.
+      
+      
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-12
           .row.p-1.fondo-rosado
             .col.lg-6
-              br
-              br
-              h5.p-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un partner; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
-            .col-lg-4.col-12
+              h5.py-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un partner; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
+            .col-lg-4.col-8
               img(src="@/assets/curso/tema1/icono1.3.2.png")
       br
       p El partner ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas a marcas específicas.
@@ -268,6 +275,11 @@
                 .tarjeta.p-1
                   h4 Durante el desarrollo del proyecto
                   p Ejerciendo la supervisión de las actividades contractuales; de esta manera, el interventor asegura el cumplimiento de lo pactado bajo el pliego de condiciones, llevando el control de aspectos técnicos, calidad, condiciones, presupuesto y demás acuerdos.
+      
+      .row.py-4
+        .col-12
+          p En caso de presentarse algún tipo de desacuerdo entre el cliente y el contratista, la interventoría tiene autoridad para resolver controversias, esto hasta ciertos niveles.
+      
       Separador
       #t_1_4.titulo-segundo.color-acento-contenido
         h2 1.4 Gestión de cambios
@@ -293,11 +305,11 @@
             .col.lg-6
               br
               h5.p-4 El propósito del proceso de gestión de niveles de servicio es asegurar que los servicios actuales y planificados sean entregados de acuerdo con lo negociado, acordado, y dentro de los objetivos establecidos.
-            .col-lg-3.col-12
+            .col-lg-3.col-8
               img(src="@/assets/curso/tema1/icono3.png")
       br
       .row(data-aos="fade-rigth").p-4 
-        .col-lg-5.col-12.p-3
+        .col-lg-5.col-10
           img(src="@/assets/curso/tema1/sla.png")
         .col-lg-7.col-22
           p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los Acuerdos de Nivel de Servicio (SLA), y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, pues estos pactos de servicio pueden ser flexibles y se debe llevar seguimiento y un requisito nuevo.
@@ -311,20 +323,23 @@
 
     
     .container.tarjeta.fondo-amarillo.p-4.p-md-5
-      p   <b> Jira Software:</b> es una herramienta para la gestión de proyectos, presenta versatilidad para usarla en diversas metodologías de desarrollo; lleva trazabilidad y seguimiento de errores; ayuda a la gestión de requisitos, desarrollo y entregas. Su licenciamiento es sin costos para ciertas áreas y con algunas restricciones, las versiones más avanzadas son pagas. A diferencia de otras plataformas, no solicita método de pago para usarlo en su versión gratuita.
+      p 
+      span.subnaraja.px-3 #[b Jira Software:]
+      | es una herramienta para la gestión de proyectos, presenta versatilidad para usarla en diversas metodologías de desarrollo; lleva trazabilidad y seguimiento de errores; ayuda a la gestión de requisitos, desarrollo y entregas. Su licenciamiento es sin costos para ciertas áreas y con algunas restricciones, las versiones más avanzadas son pagas. A diferencia de otras plataformas, no solicita método de pago para usarlo en su versión gratuita.
   
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-12.col-12
-          .row.p-1.fondo-blanco
-            .col.lg-8
+          .row.p-1.fondo-blanco.justify-content-center.align-items-center
+            .col.lg-7
               br
               h5.p-4 Esta es una herramienta robusta que contiene plantillas predefinidas que se pueden usar para adaptar los proyectos propios; adicionalmente, se conecta con otras herramientas de productividad para potencializar la integración de herramientas usadas en los proyectos.
-            .col-lg-4.col-10.p-3
-              img(src="@/assets/curso/tema1/1.5.png")
-      
-      br
+            .col-lg-4.col-11.p-3
+              img(src="@/assets/curso/tema1/jira.svg")
+              figcaption.text-center Sitio oficial: https://www.atlassian.com/es
+        
+        br
       .row(data-aos="fade-rigth").p-4 
-        .col-lg-4.col-12.p-3
+        .col-lg-4.col-12
           img(src="@/assets/curso/tema1/final.png")
         .col-lg-8.col-22
           p Cuando se crea una cuenta, a cada usuario se le asigna una dirección o dominio, lo cual lo hace muy fácil de compartir e ingresar directamente a los proyectos asociados.
@@ -355,33 +370,39 @@
               .p-4
                 h4.text-center Bug
                 p.text-center Gestión de errores que se encuentren. Por lo general, estos errores, o bugs, se asocian a una historia de usuario.
-      br
-      .row(data-aos="fade-rigth").p-4 
-        .col-lg-8.col-22
+        br
+      .row(data-aos="fade-rigth").py-4
+        .col-lg-9.col-22
           h4 El principio de funcionalidad es muy simple. Básicamente, hay tres columnas que indican el periodo o fase de ejecución de las incidencias: están las pendientes de ejecutar, las que están en periodo de ejecución y las entregadas. Si bien, por defecto, son tres columnas, podrían agregarse más, por ejemplo, en caso de proyectos tecnológicos, se podría agregar una columna más que indique cuáles están en prueba y cuáles ya pasaron la prueba o lo que se necesite.
           p Adicionalmente, es una herramienta que se puede personalizar, configurando los diferentes tipos de incidencias, y está diseñada para trabajar con equipos de trabajo donde se asignan las incidencias y se gestionen los usuarios que tienen asignación.
           p Cada incidencia, según su naturaleza, solicita datos. Para una tarea normal, las tarjetas solicitan un nombre de tarea, se pueden añadir incidencias secundarias, vincular a través de enlace a otras tareas, una descripción, y los comentarios que cada participante de esta incidencia puede trabajar. Estos campos son configurables y personalizables, según las necesidades y lo que se desea registrar o controlar.
-        .col-lg-4.col-12.p-3
+        .col-lg-3.col-12
           img(src="@/assets/curso/tema1/1.6.png")
-
-        .row 
+      .row 
+        .col-lg-10
+          img(src="@/assets/curso/tema1/linea.svg")
+        .row.py-4 
           .col-lg-9
-            p Trello: es un programa destinado a la gestión, seguimiento de proyectos y equipos de trabajo; está basado en tarjetas y es un programa con facilidad de trabajo. Cuando se inicia la aplicación, solicita un espacio de trabajo donde se albergan todos los proyectos a gestionar. Si bien tiene versión pago, también tiene una opción de usarse de manera gratuita con limitaciones.
+            p 
+            span.subnaraja.px-2 #[b Trello:]
+            | es un programa destinado a la gestión, seguimiento de proyectos y equipos de trabajo; está basado en tarjetas y es un programa con facilidad de trabajo. Cuando se inicia la aplicación, solicita un espacio de trabajo donde se albergan todos los proyectos a gestionar. Si bien tiene versión pago, también tiene una opción de usarse de manera gratuita con limitaciones.
 
         br
       .row.justify-content-center.align-items-center(data-aos="fade-left")
-        .col-lg-11.col-12
-          .row.p-1.fondo-blanco
-            .col.lg-8
+        .col-lg-12.col-12
+          .row.p-1.fondo-blanco.justify-content-center.align-items-center
+            .col.lg-9
               br
-              h5.p-4 Es una herramienta sencilla, funciona basada en tarjetas, con gran capacidad para la gestión de tareas y coordinación de equipos de trabajo. Por defecto, cuenta con las tres columnas “por hacer”, “en proceso” y “hecho” o finalizado, pero tiene la posibilidad de agregar más columnas según la dinámica y necesidades.
+              h5.p-3 Es una herramienta sencilla, funciona basada en tarjetas, con gran capacidad para la gestión de tareas y coordinación de equipos de trabajo.
+              h5.px-3 Por defecto, cuenta con las tres columnas “por hacer”, “en proceso” y “hecho” o finalizado, pero tiene la posibilidad de agregar más columnas según la dinámica y necesidades.
             .col-lg-3.col-9.p-3
-              img(src="@/assets/curso/tema1/trello.png")
+              img(src="@/assets/curso/tema1/trello.svg")
+              figcaption.text-center Sitio oficial: https://trello.com/es
               br
         p <br>Cuando se añade una tarjeta, esta presenta diversas opciones para registrar la actividad, con todas las opciones necesarias para el registro, control y avance del proyecto, así como las responsabilidades y ejecución de los miembros del equipo.
-      
+        
       .row.justify-content-center.align-items-center(data-aos="fade-left").p-2
-        .col-lg-4.col-12.p-3
+        .col-lg-4.col-10.p-3
           img(src="@/assets/curso/tema1/termino.png")
         .col-lg-8.col-22
           h4 Las tarjetas permiten agregar o quitar miembros de las tareas específicas, permite incluir listas de chequeo para ir controlando acciones o tareas más pequeñas, adicionar fechas para llevar control de tiempos, archivos adjuntos y otras opciones.

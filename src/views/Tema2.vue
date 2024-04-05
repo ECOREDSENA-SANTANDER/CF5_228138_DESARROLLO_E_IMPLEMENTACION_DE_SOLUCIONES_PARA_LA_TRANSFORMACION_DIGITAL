@@ -20,14 +20,14 @@
             .col-lg-5.col-10
               h4 Art. 1º. 
               p.mb-lg-0.mb-3 Los autores de obras literarias, científicas y artísticas gozarán de protección para sus obras. 
-            .col-lg-5.col-11
+            .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/01.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
               h4 Art. 2º
               p.mb-lg-0.mb-3 Los derechos del autor recaen sobre las obras científicas, literarias y artísticas, las cuales comprenden todas las creaciones del espíritu en el campo científico, literario y artístico, cualquiera que sea el modo o forma de expresión y cualquiera que sea su destinación.
-            .col-lg-5.col-10
+            .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/02.png")
 
           .row.justify-content-center.p-4
@@ -36,14 +36,14 @@
               p.mb-lg-0.mb-3 Al hilo de lo anterior, el término derecho de autor, tal y como se contempla hoy en la legislación y en las normas internacionales sobre la materia, comprendería fundamentalmente dos aspectos:<br><br>
               p ● El aspecto patrimonial.
               p ● El aspecto moral.
-            .col-lg-5.col-10
+            .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/03.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
               h4 
               p.mb-lg-0.mb-3 Combinando estos dos aspectos, se puede decir que el derecho de autor es aquella facultad que tiene una persona para el disfrute y explotación económica de una obra literaria, artística o científica, creada por el mismo, así como el derecho a decidir sobre su divulgación, sobre el respeto a su integridad y sobre las demás consecuencias inherentes a la paternidad de esta.
-            .col-lg-5.col-10
+            .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/04.png")
 
           .row.justify-content-center.p-4
@@ -51,24 +51,24 @@
               h4 
               p.mb-lg-0.mb-3 Aunque el derecho de autor es inescindible (no se puede dividir), tiene un contenido plural de facultades: <br><br>
               p ● Las patrimoniales y las personales. 
-            .col-lg-5.col-10
+            .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/05.png")
         
       p <br> En el derecho de autor la ley protege al autor de la obra, declarando a favor de este el derecho que posee. En cambio, en el sistema de copyright, la ley va a proteger al autor una vez que este cumpla con una serie de formalidades establecidas por esta para tal fin.
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-12.col-12
-          .row.p-1.fondo-rosado
+          .row.fondo-rosado
             .col.lg-6
               br
               p.p-3 En este orden de ideas, como segundo momento se encuentra el copyright principalmente. No obstante, es una mezcla de ambos, debido a que protege los derechos morales, que son los que le confieren al autor la paternidad y la integridad de la obra como suya, mientras que en el sistema de copyright se ha delegado a los tribunales que intervienen en el derecho moral.<br><br>derecho de autor es esencialmente individualista, sosteniendo a este como un derecho personal e inalienable del autor, persona física para controlar el uso de las obras de creación.
-            .col-lg-4.col-12
+            .col-lg-4.col-9.py-4
               img(src="@/assets/curso/tema2/06.png")
       .row 
         br
         p <br><br>Para la comprensión de los derechos de autor es necesario tener en cuenta:
       .row.justify-content-center.align-items-center(data-aos="fade-left").p-2
-        TabsB.fondo-amarillo2
+        TabsB.fondo-amarillo
           .py-4.py-md-5(titulo="Características derechos de autor" :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center.align-items-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
@@ -92,7 +92,7 @@
           
           .py-4.py-md-5(titulo="¿Qué tipo de obras protege el Derecho de Autor?" :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center.align-items-center(data-aos="fade-left")
-              .col-md-3.mb-4.mb-md-0
+              .col-lg-5
                   ol.lista-ol.p-4
                     li 
                       | ● Literarias
@@ -110,8 +110,9 @@
                       | ● Caricatura e historieta
                     li 
                       | ●  Arquitectónicas 
-
-              .col-md-3.mb-4.mb-md-0 
+                  p.text-small Todas aquellas que por su analogía se logren incluir en la rama afín a su naturaleza.
+              
+              .col-lg-3
                   ol.lista-ol
                     li 
                       | ● Cinematográficas y audiovisuales
@@ -126,10 +127,10 @@
                     li  
                       | ● Obras de arte aplicado 
                       | (incluyen diseño gráfico o textil)
-
-              .col-md-4
+              .col-lg-4
                 figure
                   img(src='@/assets/curso/tema2/003.png', alt='Texto que describa la imagen')
+ 
 
       br
       p <br>Con el ánimo de que pueda comprender de manera integral los principios y el concepto de los derechos de autor se sugiere revisar el siguiente video:
@@ -166,16 +167,16 @@
             .row.justify-content-around.align-items-center.p-4
               .col-lg-2.col-sm-3.col-4  
                 img.w-75(src='@/assets/curso/tema2/link.svg')
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.text-white.mb-1 Organización Mundial de la Propiedad Intelectual OMPI.
-                  p.text-white 
-                    |Conozca el folleto de asesoría jurídica elaborado por la Organización Mundial de la Propiedad Intelectual OMPI.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href='https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf' target='_blank')
-                    span ir al sitio
-                    i.fas.fa-file-download
+              .col-lg-10
+                .row.justify-content-between.align-items-center
+                  .col.mb-5.mb-sm-0
+                    h4.text-white.mb-1 Organización Mundial de la Propiedad Intelectual OMPI.
+                    p.text-white 
+                      |Conozca el folleto de asesoría jurídica elaborado por la Organización Mundial de la Propiedad Intelectual OMPI.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href='https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf' target='_blank')
+                      span ir al sitio
+                      i.fas.fa-file-download
         .col-md-4.col-8.order-md-2.order-1.mb-md-2.mb-4.aos-init.aos-animate(data-aos='fade-left')
           img(src='@/assets/curso/tema2/2.1.png')
 
@@ -208,7 +209,7 @@
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-12.col-12
           .row
-            .col-lg-5.col-12
+            .col-lg-5.col-9
               img(src="@/assets/curso/tema2/2.3.png")
             .col.lg-6
               br
