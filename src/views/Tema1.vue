@@ -17,7 +17,7 @@
             )
             .bloque-texto-g__texto.p-3
               br
-              p.mb-0 Se identifican los aspectos clave que el sistema requiere y se descartan los aspectos irrelevantes, se incluyen Requisitos Funcionales (RF) y restricciones o Requisitos No Funcionales (RNF); comienza con el grupo de interesados reunidos para definir las necesidades del negocio, descripción de los escenarios en los que se desempeñarán los usuarios, se delinean las funciones y características del producto de software o solución tecnológica, y se identifican las limitaciones del proyecto, que dependen de las herramientas que se usen para gestionar el conocimiento del grupo de interesados para generar productos software de alta calidad (Presman & Maxim, 2021).
+              p.mb-0 Se identifican los aspectos clave que el sistema requiere y se descartan los aspectos irrelevantes, se incluyen Requisitos Funcionales (RF) y restricciones o Requisitos No Funcionales (RNF); comienza con el grupo de interesados reunidos para definir las necesidades del negocio, descripción de los escenarios en los que se desempeñarán los usuarios, se delinean las funciones y características del producto de #[em software] o solución tecnológica, y se identifican las limitaciones del proyecto, que dependen de las herramientas que se usen para gestionar el conocimiento del grupo de interesados para generar productos #[em software] de alta calidad (Presman & Maxim, 2021).
               br
               br
               
@@ -45,7 +45,7 @@
           .row.justify-content-center.p-4
             .col-lg-5.col-10
               h4 Concepción
-              p.mb-lg-0.mb-3 Es la documentación y el registro de los requisitos donde se enmarcan las razones para la elaboración del proyecto tecnológico, es decir, dan cuenta de las necesidades, detalles para la comprensión del problema, el área que requiere la solución y de qué tipo sería la solución (hardware, software, BI, etc.).
+              p.mb-lg-0.mb-3 Es la documentación y el registro de los requisitos donde se enmarcan las razones para la elaboración del proyecto tecnológico, es decir, dan cuenta de las necesidades, detalles para la comprensión del problema, el área que requiere la solución y de qué tipo sería la solución (#[em hardware, software,] BI, etc.).
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/tema1/banner1.png")
 
@@ -157,7 +157,7 @@
             
             .tabla-b.color-acento-contenido.mb-2
               .tabla-b__header
-                h4.mb-0 Concepción
+                h4.mb-0 Gestión de cambios
               table.fondo-tabla
                 tr
                   td Establecer actividades o protocolos que ayuden al equipo a controlar y gestionar cambios de requisitos
@@ -208,7 +208,7 @@
               br
               h5.p-4 Dentro del campo de la ingeniería de requisitos y el desarrollo de proyectos, es común la validación y revisión por parte de un experto o un grupo de expertos representados en una empresa, con recorrido y experiencia en el campo de desarrollo tecnológico. 
             .col-lg-4.col-10
-              img(src="@/assets/curso/tema1/icono1.3.png")
+              img.img-desbordante(src="@/assets/curso/tema1/icono1.3.png")
      
       .row(data-aos="fade-left").p-4 
         .col-lg-3.col-10.p-3
@@ -248,11 +248,11 @@
       
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-12
-          .row.p-1.fondo-rosado
+          .row.justify-content-center.align-items-center.fondo-rosado
             .col.lg-6
-              h5.py-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un partner; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
+              h5.p-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un partner; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
             .col-lg-4.col-8
-              img(src="@/assets/curso/tema1/icono1.3.2.png")
+              img.img-desbordante(src="@/assets/curso/tema1/icono1.3.2.png")
       br
       p El partner ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas a marcas específicas.
       p También se encuentra el rol de <b>interventoría de proyectos tecnológicos,</b> que son las acciones de terceros que intervienen en proyectos de entidades privadas o públicas; por lo general, son un requisito de ley para inversiones de alto monto.
@@ -306,7 +306,7 @@
               br
               h5.p-4 El propósito del proceso de gestión de niveles de servicio es asegurar que los servicios actuales y planificados sean entregados de acuerdo con lo negociado, acordado, y dentro de los objetivos establecidos.
             .col-lg-3.col-8
-              img(src="@/assets/curso/tema1/icono3.png")
+              img.img-desbordante(src="@/assets/curso/tema1/icono3.png")
       br
       .row(data-aos="fade-rigth").p-4 
         .col-lg-5.col-10
@@ -344,7 +344,7 @@
         .col-lg-8.col-22
           p Cuando se crea una cuenta, a cada usuario se le asigna una dirección o dominio, lo cual lo hace muy fácil de compartir e ingresar directamente a los proyectos asociados.
           p Cada proyecto tiene sus acciones, llamadas incidencias, tales como flujos o tareas de trabajo; se pueden crear los proyectos que sean necesarios; una incidencia puede ser una tarea, un ticket de asistencia, un formulario de solicitud o cualquier otra unidad de trabajo relevante de los proyectos.
-          p Las incidencias es el término para referirse a las actividades que el equipo va a desempeñar; un proyecto, por lo general, contiene incidencias de tres tipos:
+          p Las #[em incidencias] es el término para referirse a las actividades que el equipo va a desempeñar; un proyecto, por lo general, contiene incidencias de tres tipos:
 
       .row.justify-content-center
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -368,15 +368,15 @@
             img(src='@/assets/curso/tema1/03.png' alt='AvatarTop')
             .tarjeta.fondo-naranja
               .p-4
-                h4.text-center Bug
+                h4.text-center #[em Bug]
                 p.text-center Gestión de errores que se encuentren. Por lo general, estos errores, o bugs, se asocian a una historia de usuario.
         br
-      .row(data-aos="fade-rigth").py-4
+      .row.justify-content-center.align-items-center(data-aos="fade-rigth").py-4
         .col-lg-9.col-22
           h4 El principio de funcionalidad es muy simple. Básicamente, hay tres columnas que indican el periodo o fase de ejecución de las incidencias: están las pendientes de ejecutar, las que están en periodo de ejecución y las entregadas. Si bien, por defecto, son tres columnas, podrían agregarse más, por ejemplo, en caso de proyectos tecnológicos, se podría agregar una columna más que indique cuáles están en prueba y cuáles ya pasaron la prueba o lo que se necesite.
           p Adicionalmente, es una herramienta que se puede personalizar, configurando los diferentes tipos de incidencias, y está diseñada para trabajar con equipos de trabajo donde se asignan las incidencias y se gestionen los usuarios que tienen asignación.
           p Cada incidencia, según su naturaleza, solicita datos. Para una tarea normal, las tarjetas solicitan un nombre de tarea, se pueden añadir incidencias secundarias, vincular a través de enlace a otras tareas, una descripción, y los comentarios que cada participante de esta incidencia puede trabajar. Estos campos son configurables y personalizables, según las necesidades y lo que se desea registrar o controlar.
-        .col-lg-3.col-12
+        .col-lg-3.col-10.mb-4-lg-0
           img(src="@/assets/curso/tema1/1.6.png")
       .row 
         .col-lg-10

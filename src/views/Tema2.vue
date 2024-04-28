@@ -67,10 +67,10 @@
       .row 
         br
         p <br><br>Para la comprensión de los derechos de autor es necesario tener en cuenta:
-      .row.justify-content-center.align-items-center(data-aos="fade-left").p-2
+      .row.justify-content-center(data-aos="fade-left").p-2
         TabsB.fondo-amarillo
           .py-4.py-md-5(titulo="Características derechos de autor" :icono="require('@/assets/curso/tema2/reglas.svg')")
-            .row.justify-content-center.align-items-center(data-aos="fade-left")
+            .row.justify-content-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
                 h4 Características derechos de autor 
                 p <br>● El derecho de autor no es un derecho primordial, como sí lo es el derecho a la protección de datos de carácter personal.
@@ -91,8 +91,8 @@
                   img(src='@/assets/curso/tema2/002.png', alt='Texto que describa la imagen')
           
           .py-4.py-md-5(titulo="¿Qué tipo de obras protege el Derecho de Autor?" :icono="require('@/assets/curso/tema2/reglas.svg')")
-            .row.justify-content-center.align-items-center(data-aos="fade-left")
-              .col-lg-5
+            .row.justify-content-center(data-aos="fade-left")
+              .col-lg-4
                   ol.lista-ol.p-4
                     li 
                       | ● Literarias
@@ -110,10 +110,10 @@
                       | ● Caricatura e historieta
                     li 
                       | ●  Arquitectónicas 
-                  p.text-small Todas aquellas que por su analogía se logren incluir en la rama afín a su naturaleza.
+                  
               
-              .col-lg-3
-                  ol.lista-ol
+              .col-lg-4
+                  ol.lista-ol.p-4
                     li 
                       | ● Cinematográficas y audiovisuales
                     li  
@@ -130,7 +130,8 @@
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema2/003.png', alt='Texto que describa la imagen')
- 
+            
+            p.px-4 Todas aquellas que por su analogía se logren incluir en la rama afín a su naturaleza.
 
       br
       p <br>Con el ánimo de que pueda comprender de manera integral los principios y el concepto de los derechos de autor se sugiere revisar el siguiente video:

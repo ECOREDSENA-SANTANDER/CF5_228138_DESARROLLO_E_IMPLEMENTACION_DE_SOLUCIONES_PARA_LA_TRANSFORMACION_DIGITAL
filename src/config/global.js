@@ -3,11 +3,11 @@ export default {
     componenteFormativo: 'Validaciones del informe de requisitos',
     descripcionCurso:
       'Los requisitos se constituyen como la base fundamental para el desarrollo de proyectos de software y transformación digital, debido al impacto en el diseño y demás fases del ciclo de vida del producto, por lo que validar la documentación de requisitos apropiadamente ayuda a reducir los cambios y correcciones en los proyectos, optimizando los costos en el desarrollo de software o soluciones tecnológicas.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
