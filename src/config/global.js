@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Validaciones del informe de requisitos',
     descripcionCurso:
-      'Los requisitos se constituyen como la base fundamental para el desarrollo de proyectos de software y transformación digital, debido al impacto en el diseño y demás fases del ciclo de vida del producto, por lo que validar la documentación de requisitos apropiadamente ayuda a reducir los cambios y correcciones en los proyectos, optimizando los costos en el desarrollo de software o soluciones tecnológicas.',
+      'Los requisitos se constituyen como la base fundamental para el desarrollo de proyectos de <i>software</i> y transformación digital, debido al impacto en el diseño y demás fases del ciclo de vida del producto, por lo que validar la documentación de requisitos apropiadamente ayuda a reducir los cambios y correcciones en los proyectos, optimizando los costos en el desarrollo de <i>software</i> o soluciones tecnológicas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
@@ -165,17 +165,12 @@ export default {
     },
     {
       referencia:
-        'Organización Internacional de Normalización. (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001). ',
-      link: 'https://www.iso.org/standard/54534.html',
-    },
-    {
-      referencia:
         'Netec. (2021). Curso Fundamentos de ITIL® V3 | EOL. Proceso de gestión de niveles de servicio. México. Obtenido de',
       link: 'https://www.netecdigital.com/courses/195795/lectures/3432553',
     },
     {
       referencia:
-        'Presman, R., & Maxim, B. (2021). Ingeniería de software - un enfoque práctico. Guadalajara, México:McGraw-Hill Interamericana. Repositorio Sena.',
+        'Presman, R., & Maxim, B. (2021). Ingeniería de <i>software</i> - un enfoque práctico. Guadalajara, México:McGraw-Hill Interamericana. Repositorio Sena.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=16414',
     },
   ],
@@ -183,7 +178,7 @@ export default {
     {
       termino: 'AWS',
       significado:
-        'son las  siglas de Amazon Web Service, que es una de plataformas tecnológicas donde muchas empresas tienen para guardar sus datos y su infraestructura tecnológica.',
+        'son las  siglas de <i>Amazon Web Service</i>, que es una de plataformas tecnológicas donde muchas empresas tienen para guardar sus datos y su infraestructura tecnológica.',
     },
     {
       termino: 'Confidencialidad',
@@ -196,24 +191,24 @@ export default {
         'se refiere al porcentaje garantizado. Entre menos disponibilidad menos garantía y el servicio estará interrumpido o con fallos. Se usa para medir cumplimiento de requerimientos y hacer cumplir contratos o en su defecto sanciones pactadas.',
     },
     {
-      termino: 'Google Workspace',
+      termino: '<i>Google Workspace</i>',
       significado:
-        'es un conjunto de herramientas para la productividad de las empresas creado por Google.',
+        'es un conjunto de herramientas para la productividad de las empresas creado por <i>Google.</i>',
     },
     {
-      termino: 'Insigth',
+      termino: '<i>Insigth</i>',
       significado:
         'es un término de la Psicología que indica una verdad general, en términos de informática y marketing se refiere a las verdades (a veces relativa según tiempo y condiciones), que generan los datos o los comportamientos de consumo.',
     },
     {
-      termino: 'Metodología Scrum',
+      termino: 'Metodología <i>Scrum</i>',
       significado:
         'hace parte del paradigma de metodologías ágiles, actualmente es la metodología más empleada para el desarrollo de proyectos tecnológicos, se caracteriza por ser flexible, ágil y desarrollar módulos o mejoras sobre la marcha de la implementación.',
     },
     {
-      termino: 'Microsoft Office 365',
+      termino: '<i>Microsoft Office 365</i>',
       significado:
-        'son un conjunto de herramientas ofimáticas de productividad para las empresas, contratadas con la empresa Microsoft.',
+        'son un conjunto de herramientas ofimáticas de productividad para las empresas, contratadas con la empresa <i>Microsoft.</i>',
     },
     {
       termino: 'Requisitos Funcionales (RF)',
@@ -233,14 +228,14 @@ export default {
     {
       termino: 'Testeos',
       significado:
-        'son las pruebas de software, donde el área de la ingeniería de software emplea metodologías de pruebas para detectar errores de programación o errores funcionales a partir de los requisitos.',
+        'son las pruebas de <i>software</i>, donde el área de la ingeniería de <i>software</i> emplea metodologías de pruebas para detectar errores de programación o errores funcionales a partir de los requisitos.',
     },
   ],
   complementario: [
     {
       tema: '1. Evaluación y validación del informe de requisitos',
       referencia:
-        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de software.. Corporación Universitaria Remington. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/68913',
+        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <i>software</i>.. Corporación Universitaria Remington. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/68913',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/68913?page=64',
@@ -287,9 +282,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -327,7 +327,17 @@ export default {
         {
           nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'San Gil - Regional Santander ',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -335,9 +345,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

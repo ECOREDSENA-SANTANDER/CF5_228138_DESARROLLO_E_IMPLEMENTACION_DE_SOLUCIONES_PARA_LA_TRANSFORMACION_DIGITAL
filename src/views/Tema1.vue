@@ -101,8 +101,8 @@
                 h4.mb-0 Concepción
               table.fondo-tabla
                 tr
-                  td Motivación para el desarrollo de la solución
-                  td Identificar necesidades
+                  td Motivación para el desarrollo de la solución.
+                  td Identificar necesidades.
               
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
           
@@ -111,9 +111,9 @@
                 h4.mb-0 Indagación
               table.fondo-tabla
                 tr
-                  td Escuchar clientes, usuarios
-                  td Establece metas de negocio y las asocia con requisitos
-                  td Asociar requisitos a metas y ponderar requisitos
+                  td Escuchar clientes, usuarios.
+                  td Establece metas de negocio y las asocia con requisitos.
+                  td Asociar requisitos a metas y ponderar requisitos.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
 
             .tabla-b.color-acento-contenido.mb-2
@@ -121,9 +121,9 @@
                 h4.mb-0 Elaboración
               table.fondo-tabla
                 tr
-                  td Análisis de requisitos
-                  td Diagramar soluciones
-                  td Describir solución claramente
+                  td Análisis de requisitos.
+                  td Diagramar soluciones.
+                  td Describir solución claramente.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
             
             .tabla-b.color-acento-contenido.mb-2
@@ -131,10 +131,10 @@
                 h4.mb-0 Negociación
               table.fondo-tabla
                 tr
-                  td Establecer recursos (tiempo, dinero, equipo, etc.)
-                  td Establecer prioridad de requisitos
-                  td Cierre de acuerdos gana / gana
-                  td Claridad del alcance
+                  td Establecer recursos (tiempo, dinero, equipo, etc.).
+                  td Establecer prioridad de requisitos.
+                  td Cierre de acuerdos gana / gana.
+                  td Claridad del alcance.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
             
             .tabla-b.color-acento-contenido.mb-2
@@ -142,8 +142,8 @@
                 h4.mb-0 Especificación
               table.fondo-tabla
                 tr
-                  td Usar métodos de documentación según metodología (plantillas de requisitos)
-                  td Especificaciones claras y técnicas para programar
+                  td Usar métodos de documentación según metodología (plantillas de requisitos).
+                  td Especificaciones claras y técnicas para programar.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
            
             .tabla-b.color-acento-contenido.mb-2
@@ -151,8 +151,8 @@
                 h4.mb-0 Validación
               table.fondo-tabla
                 tr
-                  td Establecer viabilidad, claridad
-                  td Evaluar que esté bien registrado y documentado cada requisito
+                  td Establecer viabilidad, claridad.
+                  td Evaluar que esté bien registrado y documentado cada requisito.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
             
             .tabla-b.color-acento-contenido.mb-2
@@ -160,7 +160,7 @@
                 h4.mb-0 Gestión de cambios
               table.fondo-tabla
                 tr
-                  td Establecer actividades o protocolos que ayuden al equipo a controlar y gestionar cambios de requisitos
+                  td Establecer actividades o protocolos que ayuden al equipo a controlar y gestionar cambios de requisitos.
 
             
       Separador
@@ -177,11 +177,12 @@
         
       .row(data-aos="fade-left")
         .col-lg-8.col-22
-          h3 <br> Comprobación de validación de requisitos
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 1.] Comprobación de validación de requisitos
         .col-lg-12.col-22
-          img.d-block.d-md-none(src='@/assets/curso/tema1/validacionmobile.svg', alt='')
+          img.d-block.d-md-none(src='@/assets/curso/tema1/validacionmobile.svg', alt='En el siguiente diagrama de flujo se muestra cada requerimiento con opción de Si o No con el fin de identificar la ruta de comprobación de requisitos para la validación.')
         .col-lg-12.col-22
-          img.d-none.d-md-block(src='@/assets/curso/tema1/validacionerrores.svg', alt='') 
+          img.d-none.d-md-block(src='@/assets/curso/tema1/validacionerrores.svg', alt='En el siguiente diagrama de flujo se muestra cada requerimiento con opción de Si o No con el fin de identificar la ruta de comprobación de requisitos para la validación.') 
       
       .row 
         br
@@ -224,7 +225,7 @@
             img(src='@/assets/curso/tema1/icono1.svg' alt='AvatarTop')
             .tarjeta.fondo-naranja
               .p-4
-                h4.text-center Mejores decisiones
+                h4.text-center Mejores decisiones.
                 p.text-center Ayudan a las organizaciones a tomar mejores decisiones bajo conceptos profesionales y técnicos, basados en proyecciones, objetivos, recursos y necesidades específicas del proyecto y el negocio.
 
         .col-sm-6.col-lg-5.mb-4.mb-lg-0
@@ -232,10 +233,10 @@
             img(src='@/assets/curso/tema1/icono2.svg' alt='AvatarTop')
             .tarjeta.fondo-naranja
               .p-4
-                h4.text-center Expertos externos
+                h4.text-center Expertos externos.
                 p.text-center Generan nuevas ideas de negocio, ampliando posibilidades comerciales, mejorando la experiencia de los clientes, identificando otras posibilidades, innovando en los procesos, haciendo las organizaciones más inteligentes.
       br
-      p También existen los <b>consultores tecnológicos,</b> que se refieren a los servicios de consejería bajo el contexto de acciones de soluciones tecnológicas e informáticas. Las empresas usan estos servicios motivados por la necesidad de asesorías profesionales, en especial, para escuchar recomendaciones sobre la manera de actuar frente a necesidades tecnológicas y transformación digital, ayudando a las organizaciones a tomar mejores decisiones bajo conceptos profesionales, que se dedican a acompañar grandes corporaciones exitosas en temas como estrategia empresarial, economía, áreas financieras, tributarias, legal, tecnología, marketing, etc.
+      p También existen los <b>consultores tecnológicos,</b> que se refieren a los servicios de consejería bajo el contexto de acciones de soluciones tecnológicas e informáticas. Las empresas usan estos servicios motivados por la necesidad de asesorías profesionales, en especial, para escuchar recomendaciones sobre la manera de actuar frente a necesidades tecnológicas y transformación digital, ayudando a las organizaciones a tomar mejores decisiones bajo conceptos profesionales, que se dedican a acompañar grandes corporaciones exitosas en temas como estrategia empresarial, economía, áreas financieras, tributarias, legal, tecnología, #[em marketing], etc.
       
       .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
         .row
@@ -243,18 +244,18 @@
             figure
               img(src="@/assets/curso/tema1/socios.svg", alt="alt").img75.m-auto
           .col-lg-11
-            p.p-4 Otro término empleado para las empresas externas que apoyan y ofrecen soluciones tecnológicas a las organizaciones que requieren tener una mayor seguridad, asesoría y acompañamiento en la implementación de proyectos digitales especializados son los partners tecnológicos, estos pueden ofrecer servicios diversificados, desde educación y gestión del cambio cultural, hasta el desarrollo de software e implementación de soluciones tecnológicas, la mayoría tiene el rol de acercar las organizaciones de todos los tamaños con las grandes corporaciones y ecosistemas digitales.
+            p.p-4 Otro término empleado para las empresas externas que apoyan y ofrecen soluciones tecnológicas a las organizaciones que requieren tener una mayor seguridad, asesoría y acompañamiento en la implementación de proyectos digitales especializados son los #[em partners] tecnológicos, estos pueden ofrecer servicios diversificados, desde educación y gestión del cambio cultural, hasta el desarrollo de #[em software] e implementación de soluciones tecnológicas, la mayoría tiene el rol de acercar las organizaciones de todos los tamaños con las grandes corporaciones y ecosistemas digitales.
       
       
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-12
           .row.justify-content-center.align-items-center.fondo-rosado
             .col.lg-6
-              h5.p-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un partner; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
+              h5.p-4 Cuando una empresa desea implementar su ecosistema digital basado en una marca específica, por lo general, se realiza a través de un #[em partner]; quienes se responsabilizan de asesorías, certificaciones, formación y venta de soluciones. 
             .col-lg-4.col-8
               img.img-desbordante(src="@/assets/curso/tema1/icono1.3.2.png")
       br
-      p El partner ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas a marcas específicas.
+      p El #[em partner] ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas a marcas específicas.
       p También se encuentra el rol de <b>interventoría de proyectos tecnológicos,</b> que son las acciones de terceros que intervienen en proyectos de entidades privadas o públicas; por lo general, son un requisito de ley para inversiones de alto monto.
       p Las interventorías para planes tecnológicos pueden estar en dos momentos:
       br
@@ -264,7 +265,7 @@
             .col-lg-3.col-5
               img.w-75(src='@/assets/curso/tema1/p1.png' alt='')
             .tarjeta
-                h4 Generar los pliegos de condiciones o requerimientos
+                h4 Generar los pliegos de condiciones o requerimientos.
                 p Es el documento con referencias técnicas más importante para la asignación de contratos de obras y servicios; a partir de los pliegos de condiciones, los proveedores o empresas del mercado se presentan como candidatos para asignarles el proyecto.
                 p Este documento es clave, pues da cuenta de las especificidades técnicas, alcances, condiciones para que, a partir de los requisitos, necesidades y recursos, se haga el estudio y genere los pliegos con todas las condiciones requeridas.
            
@@ -273,7 +274,7 @@
                 .col-lg-3.col-5
                   img.w-75(src='@/assets/curso/tema1/p2.png' alt='')
                 .tarjeta.p-1
-                  h4 Durante el desarrollo del proyecto
+                  h4 Durante el desarrollo del proyecto.
                   p Ejerciendo la supervisión de las actividades contractuales; de esta manera, el interventor asegura el cumplimiento de lo pactado bajo el pliego de condiciones, llevando el control de aspectos técnicos, calidad, condiciones, presupuesto y demás acuerdos.
       
       .row.py-4
@@ -296,7 +297,7 @@
                 img(src="@/assets/curso/tema1/1.4.png")
       br
       p En el desarrollo de proyectos tecnológicos, es común que “cuando se soluciona un problema, aparezca otro”, en otras palabras, cuando se satisface una necesidad, surge otra, y al resolverla, surge otra, y así.
-      p Parte de las características de las metodologías ágiles es que los requisitos no deben ser una camisa de fuerza, inflexibles e inmutables, pero sí es necesario tener claridad entre mejorar un requisito; por ejemplo, tener que mejorar el formato de presentación de un campo y que el requisito cambie según los acuerdos ya pactados. Una cosa es que el cliente sugiera mejorar un aspecto de navegabilidad en una aplicación, pues, a diferencia de como se programó inicialmente, en la práctica se nota que es confuso; a que solicite agregar funcionalidades al requisito, como nuevos cálculos o adicionar elementos que impliquen cambios estructurales en la solución software.
+      p Parte de las características de las metodologías ágiles es que los requisitos no deben ser una camisa de fuerza, inflexibles e inmutables, pero sí es necesario tener claridad entre mejorar un requisito; por ejemplo, tener que mejorar el formato de presentación de un campo y que el requisito cambie según los acuerdos ya pactados. Una cosa es que el cliente sugiera mejorar un aspecto de navegabilidad en una aplicación, pues, a diferencia de como se programó inicialmente, en la práctica se nota que es confuso; a que solicite agregar funcionalidades al requisito, como nuevos cálculos o adicionar elementos que impliquen cambios estructurales en la solución #[em software].
       br
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
@@ -312,13 +313,13 @@
         .col-lg-5.col-10
           img(src="@/assets/curso/tema1/sla.png")
         .col-lg-7.col-22
-          p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los Acuerdos de Nivel de Servicio (SLA), y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, pues estos pactos de servicio pueden ser flexibles y se debe llevar seguimiento y un requisito nuevo.
+          p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los #[b Acuerdos de Nivel de Servicio (SLA)], y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, pues estos pactos de servicio pueden ser flexibles y se debe llevar seguimiento y un requisito nuevo.
       
       
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido
         h2 1.5 Herramientas para la gestión y trazabilidad
-      p Actualmente, existen muchas herramientas para la gestión de proyectos y la trazabilidad de los procesos, en especial, para las metodologías de desarrollo ágiles. Si bien todo esto comienza con la idea del desarrollo de software, tiene la posibilidad de gestionar cualquier clase de proyecto donde se definen roles, tareas específicas y otras responsabilidades, como, por ejemplo: el diseño y diagramación, la mejora de flujos de trabajo y procesos, el desarrollo de códigos, la documentación del código, la gestión de archivos, el soporte técnico, la gestión de la seguridad, las pruebas y control, el seguimiento de productividad, la planificación y la coordinación de un proyecto, etc.
+      p Actualmente, existen muchas herramientas para la gestión de proyectos y la trazabilidad de los procesos, en especial, para las metodologías de desarrollo ágiles. Si bien todo esto comienza con la idea del desarrollo de #[em software], tiene la posibilidad de gestionar cualquier clase de proyecto donde se definen roles, tareas específicas y otras responsabilidades, como, por ejemplo: el diseño y diagramación, la mejora de flujos de trabajo y procesos, el desarrollo de códigos, la documentación del código, la gestión de archivos, el soporte técnico, la gestión de la seguridad, las pruebas y control, el seguimiento de productividad, la planificación y la coordinación de un proyecto, etc.
       p Algunas de las herramientas más populares son:
 
     

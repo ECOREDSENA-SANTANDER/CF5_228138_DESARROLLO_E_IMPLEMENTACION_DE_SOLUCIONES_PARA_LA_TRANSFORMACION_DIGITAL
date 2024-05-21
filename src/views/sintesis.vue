@@ -3,12 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    p.mb-5 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo: 
+    p.mb-5 En el siguiente diagrama se resume las temáticas desarolladas en el componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Se puede apreciar una estructura de conceptos claves sobre las validaciones del informe de requisitos, de donde se desprende la evaluación, con sus diferentes pasos hasta llegar a acuerdos de nivel de servicios SLA, En la segunda línea participación de expertos, se encuentra consultorías, interventorías y partners y en Derechos de autor toda la parte legal con descripción de leyes. ")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

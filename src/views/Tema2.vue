@@ -9,7 +9,7 @@
       
       .row(data-aos="fade-left")
         p Es la rama de la propiedad intelectual que reconoce en cabeza de los autores ciertas prerrogativas morales y patrimoniales sobre sus obras artísticas y literarias, que sean originales y susceptibles de ser divulgadas o reproducidas por cualquier medio.
-        p Los derechos conexos, por otro lado, son aquellos derechos reconocidos a los artistas, intérpretes o ejecutantes por los productores de fonogramas y los organismos de radiodifusión sobre sus interpretaciones, fonogramas o emisiones de radiodifusión. La regulación del derecho de autor y los derechos conexos se encuentra principalmente en la Ley 23 de 1982 y la Decisión Andina 351 de 1993.
+        p Los derechos conexos, por otro lado, son aquellos derechos reconocidos a los artistas, intérpretes o ejecutantes por los productores de fonogramas y los organismos de radiodifusión sobre sus interpretaciones, fonogramas o emisiones de radiodifusión. #[b La regulación del derecho de autor y los derechos conexos se encuentra principalmente en la Ley 23 de 1982 y la Decisión Andina 351 de 1993].
         p Colombia se rige por la normatividad establecida en la Ley 23 de 1982, sobre los derechos de autor, en la cual se indica: 
 
       .row.justify-content-center.align-items-center(data-aos="fade-left").p-2
@@ -25,7 +25,7 @@
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 Art. 2º
+              h4 Art. 2º.
               p.mb-lg-0.mb-3 Los derechos del autor recaen sobre las obras científicas, literarias y artísticas, las cuales comprenden todas las creaciones del espíritu en el campo científico, literario y artístico, cualquiera que sea el modo o forma de expresión y cualquiera que sea su destinación.
             .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/02.png")
@@ -72,7 +72,7 @@
           .py-4.py-md-5(titulo="Características derechos de autor" :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
-                h4 Características derechos de autor 
+                h4 Características derechos de autor.
                 p <br>● El derecho de autor no es un derecho primordial, como sí lo es el derecho a la protección de datos de carácter personal.
                 p <br>● Es un derecho de propiedad y de exclusividad, ya que configura una distinción sobre una obra concreta.
             
@@ -83,7 +83,7 @@
           .py-4.py-md-5(titulo="Independientes y compatibles" :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center.align-items-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
-                h4 Independientes y compatibles
+                h4 Independientes y compatibles.
                 p <br>● La propiedad y otros derechos que tengan por objeto la cosa material a la que está incorporada la creación intelectual. 
                 p <br>● Los derechos de propiedad industrial que puedan existir sobre la obra.            
               .col-md-4
@@ -150,10 +150,10 @@
               .row.justify-content-between.align-items-center
                 .col.mb-5.mb-sm-0
                   h4.text-white.mb-1 Principios básicos del derecho de autor y los derechos conexos
-                  p.text-white Para ampliar el tema sobre derechos de autor se invita a leer el documento de la Organización Mundial de la Propiedad Intelectual OMPI, denominado “Principios básicos del derecho de autor y los derechos conexos”
+                  p.text-white Para ampliar el tema sobre derechos de autor se invita a leer el documento de la Organización Mundial de la Propiedad Intelectual OMPI, denominado “Principios básicos del derecho de autor y los derechos conexos”.
                 .col-sm-auto
                   a.boton.color-acento-botones(href='https://www.wipo.int/edocs/pubdocs/es/wipo_pub_909_2016.pdf' target='_blank')
-                    span ir al sitio
+                    span Ir al sitio
                     i.fas.fa-file-download
 
       Separador
@@ -176,7 +176,7 @@
                       |Conozca el folleto de asesoría jurídica elaborado por la Organización Mundial de la Propiedad Intelectual OMPI.
                   .col-sm-auto
                     a.boton.color-acento-botones(href='https://www.wipo.int/edocs/pubdocs/es/wipo_pub_450_2020.pdf' target='_blank')
-                      span ir al sitio
+                      span Ir al sitio
                       i.fas.fa-file-download
         .col-md-4.col-8.order-md-2.order-1.mb-md-2.mb-4.aos-init.aos-animate(data-aos='fade-left')
           img(src='@/assets/curso/tema2/2.1.png')
