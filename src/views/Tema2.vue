@@ -69,7 +69,7 @@
         p <br><br>Para la comprensión de los derechos de autor es necesario tener en cuenta:
       .row.justify-content-center(data-aos="fade-left").p-2
         TabsB.fondo-amarillo
-          .py-4.py-md-5(titulo="Características derechos de autor" :icono="require('@/assets/curso/tema2/reglas.svg')")
+          .py-4.py-md-5(titulo="Características derechos de autor." :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
                 h4 Características derechos de autor.
@@ -80,7 +80,7 @@
                 figure
                   img(src='@/assets/curso/tema2/001.png', alt='Texto que describa la imagen')
 
-          .py-4.py-md-5(titulo="Independientes y compatibles" :icono="require('@/assets/curso/tema2/reglas.svg')")
+          .py-4.py-md-5(titulo="Independientes y compatibles." :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center.align-items-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
                 h4 Independientes y compatibles.
