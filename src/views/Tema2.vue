@@ -138,7 +138,7 @@
 
       figure(data-aos="fade-right")
         .video.mb-1
-          iframe(width="1280" height="720" src="https://youtube.com/embed/wNc1R28c5Ng" title="Derechos de autor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="1280" height="720" src="https://youtube.com/embed/0HzR16QhGNI" title="Derechos de autor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Derechos de autor
       br 
       .row.justify-content-around.align-items-center
