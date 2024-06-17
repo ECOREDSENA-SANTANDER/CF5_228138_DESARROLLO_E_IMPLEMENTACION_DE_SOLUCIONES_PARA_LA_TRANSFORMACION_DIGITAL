@@ -126,7 +126,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/CF05_228138_DU.zip',
       },
       {
         icono: 'far fa-registered',
@@ -316,7 +316,7 @@ export default {
         {
           nombre: 'Sandra Paola Morales Páez',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Regional Industrial - Centro Agroturístico',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
