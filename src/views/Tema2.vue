@@ -72,7 +72,6 @@
           .py-4.py-md-5(titulo="Características derechos de autor." :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
-                h4 Características derechos de autor.
                 p <br>● El derecho de autor no es un derecho primordial, como sí lo es el derecho a la protección de datos de carácter personal.
                 p <br>● Es un derecho de propiedad y de exclusividad, ya que configura una distinción sobre una obra concreta.
             
@@ -83,7 +82,6 @@
           .py-4.py-md-5(titulo="Independientes y compatibles." :icono="require('@/assets/curso/tema2/reglas.svg')")
             .row.justify-content-center.align-items-center(data-aos="fade-left")
               .col-md-6.mb-4.mb-md-0
-                h4 Independientes y compatibles.
                 p <br>● La propiedad y otros derechos que tengan por objeto la cosa material a la que está incorporada la creación intelectual. 
                 p <br>● Los derechos de propiedad industrial que puedan existir sobre la obra.            
               .col-md-4

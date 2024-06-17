@@ -121,7 +121,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228138_CF01_DU.pdf',
+        download: 'downloads/CF05_228138_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -176,9 +176,9 @@ export default {
   ],
   glosario: [
     {
-      termino: 'AWS',
+      termino: '<i>AWS</i>',
       significado:
-        'son las  siglas de <i>Amazon Web Service</i>, que es una de plataformas tecnológicas donde muchas empresas tienen para guardar sus datos y su infraestructura tecnológica.',
+        'son las  siglas de Amazon Web Service, que es una de plataformas tecnológicas donde muchas empresas tienen para guardar sus datos y su infraestructura tecnológica.',
     },
     {
       termino: 'Confidencialidad',
@@ -206,7 +206,7 @@ export default {
         'hace parte del paradigma de metodologías ágiles, actualmente es la metodología más empleada para el desarrollo de proyectos tecnológicos, se caracteriza por ser flexible, ágil y desarrollar módulos o mejoras sobre la marcha de la implementación.',
     },
     {
-      termino: '<i>Microsoft Office 365</i>',
+      termino: 'Microsoft Office 365',
       significado:
         'son un conjunto de herramientas ofimáticas de productividad para las empresas, contratadas con la empresa <i>Microsoft.</i>',
     },
@@ -235,7 +235,7 @@ export default {
     {
       tema: '1. Evaluación y validación del informe de requisitos',
       referencia:
-        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <i>software</i>.. Corporación Universitaria Remington. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/68913',
+        'Echeverri, J. Aristizábal, M. & González, L. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de <i>software</i>. Corporación Universitaria Remington. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/68913',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/68913?page=64',
@@ -310,8 +310,13 @@ export default {
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesora metodológica y pedagógica',
+          cargo: 'Asesora Metodológica y Pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Industrial - Centro Agroturístico',
         },
       ],
     },
@@ -325,8 +330,8 @@ export default {
             'Regional Norte de Santander Centro de la Industria, la empresa y los servicios - CIES',
         },
         {
-          nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Leonardo Castellanos Rodríguez',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
@@ -345,7 +350,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
+          nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora de Recursos Educativos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
