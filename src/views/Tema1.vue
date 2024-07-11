@@ -101,7 +101,7 @@
                 h4.mb-0 Concepción
               table.fondo-tabla
                 tr
-                  td Motivación para el desarrollo de la solución.
+                  td Motivar para el desarrollo de la solución
                   td Identificar necesidades.
               
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
@@ -112,7 +112,7 @@
               table.fondo-tabla
                 tr
                   td Escuchar clientes, usuarios.
-                  td Establece metas de negocio y las asocia con requisitos.
+                  td Establecer metas de negocio y las asocia con requisitos.
                   td Asociar requisitos a metas y ponderar requisitos.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
 
@@ -121,7 +121,7 @@
                 h4.mb-0 Elaboración
               table.fondo-tabla
                 tr
-                  td Análisis de requisitos.
+                  td Analizar de requisitos.
                   td Diagramar soluciones.
                   td Describir solución claramente.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
@@ -133,8 +133,8 @@
                 tr
                   td Establecer recursos (tiempo, dinero, equipo, etc.).
                   td Establecer prioridad de requisitos.
-                  td Cierre de acuerdos gana / gana.
-                  td Claridad del alcance.
+                  td Finalizar de acuerdos gana / gana.
+                  td Definir el alcance.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
             
             .tabla-b.color-acento-contenido.mb-2
