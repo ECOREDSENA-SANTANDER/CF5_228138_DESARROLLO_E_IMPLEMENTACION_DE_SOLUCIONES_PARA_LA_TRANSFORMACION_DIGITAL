@@ -288,7 +288,7 @@ export default {
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

@@ -217,7 +217,7 @@
         .col-lg-9.col-22
           p Esta práctica expone los planes de la organización ante los ojos de experto con conocimientos técnicos y con un rol objetivo que busca apoyar en la toma de decisiones sin estar viciado por los juicios internos, que puede aportar teniendo en cuenta factores que, a lo mejor, se ignoraban y que podrían resultar críticos para los planes corporativos.
           p Los modelos empresariales y paradigmas administrativos han desarrollado una cantidad de empresas externas especializadas para cada sector, que apoyan asuntos en los que las organizaciones no son expertas y pueden contratar sus servicios. Por lo cual, es importante que se consideren dentro de los planes de inversión en los proyectos tecnológicos, con el fin de garantizar el éxito.
-          p Identifique cómo las alianzas y opinión de expertos externos potencializan las decisiones:
+          p Identifique cómo las alianzas y la opinión de expertos externos potencializan las decisiones:
 
       .row.justify-content-center
         .col-sm-6.col-lg-5.mb-4.mb-lg-0
@@ -255,7 +255,7 @@
             .col-lg-4.col-8
               img.img-desbordante(src="@/assets/curso/tema1/icono1.3.2.png")
       br
-      p El #[em partner] ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas a marcas específicas.
+      p El #[em partner] ejecuta proyectos y acompaña de manera técnica, basando la estrategia en las soluciones tecnológicas; si bien esto parece una ventaja sobre el consultor, estos están supeditados a un interés comercial, por lo que sus opiniones podrían estar basadas o acomodadas en marcas específicas.
       p También se encuentra el rol de <b>interventoría de proyectos tecnológicos,</b> que son las acciones de terceros que intervienen en proyectos de entidades privadas o públicas; por lo general, son un requisito de ley para inversiones de alto monto.
       p Las interventorías para planes tecnológicos pueden estar en dos momentos:
       br
@@ -297,7 +297,7 @@
                 img(src="@/assets/curso/tema1/1.4.png")
       br
       p En el desarrollo de proyectos tecnológicos, es común que “cuando se soluciona un problema, aparezca otro”, en otras palabras, cuando se satisface una necesidad, surge otra, y al resolverla, surge otra, y así.
-      p Parte de las características de las metodologías ágiles es que los requisitos no deben ser una camisa de fuerza, inflexibles e inmutables, pero sí es necesario tener claridad entre mejorar un requisito; por ejemplo, tener que mejorar el formato de presentación de un campo y que el requisito cambie según los acuerdos ya pactados. Una cosa es que el cliente sugiera mejorar un aspecto de navegabilidad en una aplicación, pues, a diferencia de como se programó inicialmente, en la práctica se nota que es confuso; a que solicite agregar funcionalidades al requisito, como nuevos cálculos o adicionar elementos que impliquen cambios estructurales en la solución #[em software].
+      p Parte de las características de las metodologías ágiles es que los requisitos no deben ser una camisa de fuerza, inflexibles e inmutables, pero sí es necesario tener claridad entre mejorar un requisito; por ejemplo, tener que mejorar el formato de presentación de un campo y que el requisito cambie según los acuerdos ya pactados. Una cosa es que el cliente sugiera mejorar un aspecto de navegabilidad en una aplicación, pues, a diferencia de cómo se programó inicialmente, en la práctica se nota que es confuso; a que solicite agregar funcionalidades al requisito, como nuevos cálculos o adicionar elementos que impliquen cambios estructurales en la solución #[em software].
       br
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
@@ -313,7 +313,7 @@
         .col-lg-5.col-10
           img(src="@/assets/curso/tema1/sla.png")
         .col-lg-7.col-22
-          p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los #[b Acuerdos de Nivel de Servicio (SLA)], y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, pues estos pactos de servicio pueden ser flexibles y se debe llevar seguimiento y un requisito nuevo.
+          p Esto es facilitado a través de un ciclo constante de negociación, donde todo el contexto de las soluciones entregadas debe estar en el marco de los #[b Acuerdos de Nivel de Servicio (SLA)], y todo debe estar muy especificado en relación con los alcances y servicios pactados. Para esto, existe un marco metodológico que permite llevar a cabo la gestión de los SLA, estos pactos de servicio pueden ser flexibles y se deben llevar seguimiento y un requisito nuevo.
       
       
       Separador
@@ -395,7 +395,7 @@
             .col.lg-9
               br
               h5.p-3 Es una herramienta sencilla, funciona basada en tarjetas, con gran capacidad para la gestión de tareas y coordinación de equipos de trabajo.
-              h5.px-3 Por defecto, cuenta con las tres columnas “por hacer”, “en proceso” y “hecho” o finalizado, pero tiene la posibilidad de agregar más columnas según la dinámica y necesidades.
+              h5.px-3 Por defecto, cuenta con las tres columnas “por hacer”, “en proceso” y “hecho” o “finalizado”, pero tiene la posibilidad de agregar más columnas según la dinámica y necesidades.
             .col-lg-3.col-9.p-3
               img(src="@/assets/curso/tema1/trello.svg")
               figcaption.text-center Sitio oficial: https://trello.com/es

@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    p.mb-5 En el siguiente diagrama se resume las temáticas desarolladas en el componente formativo:
+    p.mb-5 En el siguiente diagrama se resume las temáticas desarrolladas en el componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5

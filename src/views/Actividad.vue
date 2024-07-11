@@ -7,10 +7,10 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/Completar_Espacios.svg", alt="Actividad didáctica:Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad")
+            img(src="@/assets/template/Completar_Espacios.svg", alt="Actividad didáctica:Validaciones del informe de requisitos")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de conceptos de análisis y valoración de riesgos de ciberseguridad
+          h2 Autoevaluación de validaciones del informe de requisitos
         p.mb-4 Identificar los conceptos acerca del análisis y valoración de riesgos de ciberseguridad con el fin de afianzar los conocimientos adquiridos en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
