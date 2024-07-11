@@ -54,14 +54,15 @@
             .col-lg-5.col-9
               img.mb-0(alt="" src="@/assets/curso/tema2/05.png")
         
-      p <br> En el derecho de autor la ley protege al autor de la obra, declarando a favor de este el derecho que posee. En cambio, en el sistema de copyright, la ley va a proteger al autor una vez que este cumpla con una serie de formalidades establecidas por esta para tal fin.
+      p <br> En el derecho de autor, la ley protege al autor de la obra, declarando a favor de él el derecho que posee. En cambio, en el sistema de copyright, la ley protegerá al autor cuando cumpla con una serie de formalidades establecidas por esta para ello.  
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-12.col-12
-          .row.fondo-rosado
-            .col.lg-6
+          .row.fondo-rosado.justify-content-center.align-items-center
+            .col.lg-7
               br
-              p.p-3 En este orden de ideas, como segundo momento se encuentra el copyright principalmente. No obstante, es una mezcla de ambos, debido a que protege los derechos morales, que son los que le confieren al autor la paternidad y la integridad de la obra como suya, mientras que en el sistema de copyright se ha delegado a los tribunales que intervienen en el derecho moral.<br><br>derecho de autor es esencialmente individualista, sosteniendo a este como un derecho personal e inalienable del autor, persona física para controlar el uso de las obras de creación.
+              p.px-4 En este orden de ideas, en segundo momento, se encuentra el copyright principalmente. No obstante, es una mezcla de ambos, debido a que protege los derechos morales, que son los que le confieren al autor la paternidad y la integridad de la obra como suya, mientras que en el sistema de copyright se ha delegado a los tribunales que intervienen en el derecho moral.  
+              p.px-4 El derecho de autor es esencialmente individualista, sosteniendo a éste como un derecho personal e inalienable del autor; persona física para controlar el uso de las obras de creación. 
             .col-lg-4.col-9.py-4
               img(src="@/assets/curso/tema2/06.png")
       .row 
