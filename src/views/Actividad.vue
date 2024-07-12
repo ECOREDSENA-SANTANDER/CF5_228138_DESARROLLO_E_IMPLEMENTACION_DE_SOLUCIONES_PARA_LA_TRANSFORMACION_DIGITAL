@@ -10,8 +10,8 @@
             img(src="@/assets/template/Completar_Espacios.svg", alt="Actividad didáctica:Validaciones del informe de requisitos")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de validaciones del informe de requisitos
-        p.mb-4 Identificar los conceptos acerca del análisis y valoración de riesgos de ciberseguridad con el fin de afianzar los conocimientos adquiridos en el componente.
+          h2 Autoevaluación validación de requisitos 
+        p.mb-4  Identificar los conceptos de validación de requisitos como la base fundamental para el desarrollo de proyectos de #[em software] y transformación digital.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0

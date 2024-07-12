@@ -111,8 +111,8 @@
                 h4.mb-0 Indagación
               table.fondo-tabla
                 tr
-                  td Escuchar clientes, usuarios.
-                  td Establecer metas de negocio y las asocia con requisitos.
+                  td Escuchar clientes y usuarios.
+                  td Establecer metas de negocio y asociar los requisitos.
                   td Asociar requisitos a metas y ponderar requisitos.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
 
@@ -121,7 +121,7 @@
                 h4.mb-0 Elaboración
               table.fondo-tabla
                 tr
-                  td Analizar de requisitos.
+                  td Analizar los requisitos.
                   td Diagramar soluciones.
                   td Describir solución claramente.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
@@ -133,7 +133,7 @@
                 tr
                   td Establecer recursos (tiempo, dinero, equipo, etc.).
                   td Establecer prioridad de requisitos.
-                  td Finalizar de acuerdos gana / gana.
+                  td Finalizar acuerdos gana / gana.
                   td Definir el alcance.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
             
@@ -143,7 +143,7 @@
               table.fondo-tabla
                 tr
                   td Usar métodos de documentación según metodología (plantillas de requisitos).
-                  td Especificaciones claras y técnicas para programar.
+                  td Documentar las especificaciones claras y técnicas para programar.
               img.flecha.m-auto.p-1(src="@/assets/curso/tema1/flechabajo.svg")
            
             .tabla-b.color-acento-contenido.mb-2
